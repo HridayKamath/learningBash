@@ -1,7 +1,7 @@
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
-
+//variables  comment added through bash
 var engine, world;
 var box1, pig1;
 var backgroundImg,platform;
@@ -60,5 +60,7 @@ function draw(){
     log5.display();
 
     bird.display();
+
+	//the platform created for bird
     platform.display();
 }
